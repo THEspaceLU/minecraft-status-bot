@@ -1,2 +1,2 @@
-# super-super-heroku-bot
+# minecraft-bot
 Bot using heroku, 24/7!
