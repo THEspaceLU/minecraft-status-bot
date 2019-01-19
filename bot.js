@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.login('535856897799225344');
+
 
 var request = require('request');
 var mcCommand = '/minecraft'; // Command for triggering
@@ -29,4 +29,5 @@ client.on('message', message => {
     }
 });
 
+// THIS  MUST  BE  THIS  WAY
 client.login(process.env.NTM1ODU2ODk3Nzk5MjI1MzQ0.DyOPgQ.kqP0w9CxJb-KCLfw7Ckef5ZXx7c);
