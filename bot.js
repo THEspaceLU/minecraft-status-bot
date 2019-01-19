@@ -5,11 +5,10 @@ client.login('535856897799225344');
 var request = require('request');
 var mcCommand = '/minecraft'; // Command for triggering
 var mcIP = 'THEspaceLU.aternos.me'; // Your MC server IP
-var mcPort = ; // Your MC server port
 
 client.on('message', message => {
     if (message.content === mcCommand) {
-        var url = 'http://mcapi.us/server/status?ip=' + mcIP + '&port=' + mcPort;
+        var url = 'http://mcapi.us/server/status?ip=' + mcIP;
         request(url, function(err, response, body) {
             if(err) {
                 console.log(err);
@@ -29,3 +28,5 @@ client.on('message', message => {
         });
     }
 });
+
+client.login(process.env.NTM1ODU2ODk3Nzk5MjI1MzQ0.DyOPgQ.kqP0w9CxJb-KCLfw7Ckef5ZXx7c);
